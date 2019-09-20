@@ -23,18 +23,14 @@ from nltk.tokenize import word_tokenize
 import nltk 
 from nltk.tokenize import RegexpTokenizer
 
+from Stopwords import stopwords as sw
+
 nltk.download('punkt')
 
 
 def remove_accents(input_str):
     nfkd_form = unicodedata.normalize('NFKD', input_str)
     return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
-
-def get_stop_words(stop_file_path):
-    with open(stop_file_path, 'r', encoding="utf-8") as f:
-        stopwords = f.readlines()
-        stop_set = set(m.strip() for m in stopwords)
-        return frozenset(stop_set)
 
 def pre_process(df_descricao):
     df_descricao = df_descricao.str.lower()            # letra minuscula 
@@ -54,7 +50,7 @@ if __name__ == '__main__':
     
     list_words = []
     
-    stopwords = get_stop_words("stopwords_PT.txt")     # Carrega as stop-words
+    stopwords = sw.get_stop_words()     # Carrega as stop-words
     
     df = pd.read_csv('siconv_cgdad_v2.0_instrumentos.txt', sep="\t")
     df_descricao = df['descricao_proposta']
@@ -66,7 +62,7 @@ if __name__ == '__main__':
 
 
  ####################################################
-    #Exemplo : linha 161 do csv
+    #Exemplo : linha 161 do csvsiconv_cgdad_v2.0_instrumentos.txt
     print('Texto original:', df_descricao[161])
     print('Tokens:', descricao_tokens[161])
     
@@ -95,6 +91,8 @@ if __name__ == '__main__':
     
     list_edu_obras =  ['CM_Edu_Obras_Cons_QE', 'CM_Edu_Obras_Ref_QE', 'CM_Edu_Obras_Mod_QE']
     dictionary_edu_obras = {name: val for name, val in locals().items() if name in list_edu_obras}
+
+    print('Dicionario:',dictionary_edu_obras)
     
     print('Categoria:', max(dictionary_edu_obras, key=dictionary_edu_obras.get))
     

@@ -1,0 +1,476 @@
+[
+    {
+        "agricultura" : [
+            {
+                "aquisicao de equipamentos" : [
+                    {
+                        "patrulha mecanizada" : [
+                            {
+                                "value" : ["partulha","mecanizada","agricola","aquisicao"]
+                            }
+                        ]
+                    },
+                    {
+                        "adubos e fertilizantes" : [
+                            {
+                                "value" : ["adubo","fertilizante","insumo","aquisicao","solo"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "fomento a atividades agropecuarias" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : ["fomento","atividade","agropecuaria","setor","agropecuario","setor"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "apoio a eventos" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "educacao" : [
+            {
+                "aquisicao de materiais" : [
+                    {
+                        "laboratorios" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "instituicao de ensino" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "obras" : [
+                    {
+                        "construcao" : [
+                            {
+                                "escolas" : []
+                            },
+                            {
+                                "quadras esportivas" : ["construcao", "quadra", "poliesportiva", "esporte"]
+                            },
+                            {
+                                "areas de lazer" : []
+                            }
+                        ]
+                    },
+                    {
+                        "reforma" : [
+                            {
+                                "escolas" : []
+                            },
+                            {
+                                "quadras esportivas" : ["reforma", "quadra", "poliesportiva", "esporte"]
+                            },
+                            {
+                                "areas de lazer" : []
+                            }
+                        ]
+                    },
+                    {
+                        "modernizacao" : [
+                            {
+                                "escolas" : []
+                            },
+                            {
+                                "quadras esportivas" : ["modernizacao", "quadra", "poliesportiva", "esporte"]
+                            },
+                            {
+                                "areas de lazer" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ensino" : [
+                    {
+                        "escola" : [
+                            {
+                                "presencial" : []
+                            },
+                            {
+                                "distancia" : []
+                            }
+                        ]
+                    },
+                    {
+                        "alfabetizacao" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "governo" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "populacao" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "capacitacao de professores" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "pesquisa" : [
+                    {
+                        "projetos orgaos governamentais" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "graduacao" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "pos graduacao" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "extensao" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "infraestrutura urbana" : [
+            {
+                "obras" : [
+                    {
+                        "construcao" : [
+                            {
+                                "sistemas de abastecimento" : []
+                            },
+                            {
+                                "estradas" : []
+                            },
+                            {
+                                "pontes" : []
+                            }
+                        ]
+                    },
+                    {
+                        "reforma" : [
+                            {
+                                "sistemas de abastecimentos" : []
+                            },
+                            {
+                                "estradas" : []
+                            },
+                            {
+                                "pontes" : []
+                            }
+                        ]
+                    },
+                    {
+                        "modernizacao" : [
+                            {
+                                "sistemas de abastecimentos" : []
+                            },
+                            {
+                                "estradas" : []
+                            },
+                            {
+                                "pontes" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "pavimentacao" : [
+                    {
+                        "ruas ou estradas" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "saneamento basico" : [
+                    {
+                        "drenagem de aguas pluviais" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "coleta de residuos" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    },
+                    {
+                        "limpeza urbana" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "saude" : [
+            {
+                "aquisicao de materiais" : [
+                    {
+                        "vacinas" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "obras" : [
+                    {
+                        "construcao" : [
+                            {
+                                "unidades de saude" : []
+                            }
+                        ]
+                    },
+                    {
+                        "reforma" : [
+                            {
+                                "unidades de saude" : []
+                            }
+                        ]
+                    },
+                    {
+                        "modernizacao" : [
+                            {
+                                "unidades de saude" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "atendimento a populacao" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "realizacao de exames e consultas" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "seguranca" : [
+            {
+                "obras" : [
+                    {
+                        "construcao" : [
+                            {
+                                "cadeias" : []
+                            },
+                            {
+                                "delegacias" : []
+                            }
+                        ]
+                    },
+                    {
+                        "reforma" : [
+                            {
+                                "cadeias" : []
+                            },
+                            {
+                                "delegacias" : []
+                            }
+                        ]
+                    },
+                    {
+                        "modernizacao" : [
+                            {
+                                "cadeias" : []
+                            },
+                            {
+                                "delegacias" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "incentivo a projetos" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "contratacao de pessoal" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "servicos sociais" : [
+            {
+                "iluminacao publica" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "seguranca" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "apoio a eventos" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "apoio as causas sociais" : [
+                    {
+                        "aquisicao de bens" : [
+                            {
+                                "value" : []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "obras" : [
+                    {
+                        "construcao" : [
+                            {
+                                "centros sociais" : []
+                            },
+                            {
+                                "areas de lazer" : []
+                            }
+                        ]
+                    },
+                    {
+                        "reforma" : [
+                            {
+                                "centros sociais" : []
+                            },
+                            {
+                                "areas de lazer" : []
+                            }
+                        ]
+                    },
+                    {
+                        "modernizacao" : [
+                            {
+                                "centros sociais" : []
+                            },
+                            {
+                                "areas de lazer" : []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
