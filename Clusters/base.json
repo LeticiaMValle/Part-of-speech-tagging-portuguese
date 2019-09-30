@@ -24,7 +24,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["fomento","atividade","agropecuaria","setor","agropecuario","setor"]
+                                "value" : ["fomento","atividade","agropecuaria","setor","agropecuario","setor","agricultura"]
                             }
                         ]
                     }
@@ -35,7 +35,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["evento","agropecuaria","agropecuario","apoio","agricultura"]
                             }
                         ]
                     }
@@ -50,14 +50,14 @@
                     {
                         "laboratorios" : [
                             {
-                                "value" : []
+                                "value" : ["aquisicao","laboratorio","educacao"]
                             }
                         ]
                     },
                     {
                         "instituicao de ensino" : [
                             {
-                                "value" : []
+                                "value" : ["educacao","ensino","aquisicao","ensino","instituicao"]
                             }
                         ]
                     }
@@ -68,39 +68,39 @@
                     {
                         "construcao" : [
                             {
-                                "escolas" : []
+                                "escolas" : ["construcao","escola"]
                             },
                             {
                                 "quadras esportivas" : ["construcao", "quadra", "poliesportiva", "esporte"]
                             },
                             {
-                                "areas de lazer" : []
+                                "areas de lazer" : ["construcao","lazer"]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "escolas" : []
+                                "escolas" : ["reforma","escola"]
                             },
                             {
                                 "quadras esportivas" : ["reforma", "quadra", "poliesportiva", "esporte"]
                             },
                             {
-                                "areas de lazer" : []
+                                "areas de lazer" : ["reforma","lazer"]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "escolas" : []
+                                "escolas" : ["modernizacao","escola"]
                             },
                             {
                                 "quadras esportivas" : ["modernizacao", "quadra", "poliesportiva", "esporte"]
                             },
                             {
-                                "areas de lazer" : []
+                                "areas de lazer" : ["modernizacao","lazer"]
                             }
                         ]
                     }
@@ -111,38 +111,38 @@
                     {
                         "escola" : [
                             {
-                                "presencial" : []
+                                "presencial" : ["educacao","ensino","presencial","escola"]
                             },
                             {
-                                "distancia" : []
+                                "distancia" : ["educacao","ensino","distancia","escola"]
                             }
                         ]
                     },
                     {
                         "alfabetizacao" : [
                             {
-                                "value" : []
+                                "value" : ["educacao","alfabetizacao","ensino"]
                             }
                         ]
                     },
                     {
                         "governo" : [
                             {
-                                "value" : []
+                                "value" : ["educacao","governo","ensino"]
                             }
                         ]
                     },
                     {
                         "populacao" : [
                             {
-                                "value" : []
+                                "value" : ["ensino","populacao","educacao"]
                             }
                         ]
                     },
                     {
                         "capacitacao de professores" : [
                             {
-                                "value" : []
+                                "value" : ["capacitacao","professores","educacao","ensino"]
                             }
                         ]
                     }
@@ -151,23 +151,23 @@
             {
                 "pesquisa" : [
                     {
-                        "projetos orgaos governamentais" : [
+                        "projetos orgaos" : [
                             {
-                                "value" : []
+                                "value" : ["educacao","pesquisa","projeto","governo","apoio","investimento","desenvolvimento"]
                             }
                         ]
                     },
                     {
                         "graduacao" : [
                             {
-                                "value" : []
+                                "value" : ["pesquisa","governo","graduacao","pesquisa","educacao"]
                             }
                         ]
                     },
                     {
                         "pos graduacao" : [
                             {
-                                "value" : []
+                                "value" : ["pesquisa","graduacao","pos","educacao"]
                             }
                         ]
                     }
@@ -178,7 +178,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["educacao","extensao"]
                             }
                         ]
                     }
@@ -193,39 +193,39 @@
                     {
                         "construcao" : [
                             {
-                                "sistemas de abastecimento" : []
+                                "sistemas de abastecimento" : ["infraestrutura","obra","construcao","abastecimento"]
                             },
                             {
-                                "estradas" : []
+                                "estradas" : ["infraestrutura","obra","construcao","estradas"]
                             },
                             {
-                                "pontes" : []
+                                "pontes" : ["infraestrutura","obra","construcao","pontes"]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "sistemas de abastecimentos" : []
+                                "sistemas de abastecimentos" : ["infraestrutura","obra","reforma","abastecimento"]
                             },
                             {
-                                "estradas" : []
+                                "estradas" : ["infraestrutura","obra","reforma","estradas"]
                             },
                             {
-                                "pontes" : []
+                                "pontes" : ["infraestrutura","obra","reforma","pontes"]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "sistemas de abastecimentos" : []
+                                "sistemas de abastecimentos" : ["infraestrutura","obra","modernizacao","abastecimento"]
                             },
                             {
-                                "estradas" : []
+                                "estradas" : ["infraestrutura","obra","modernizacao","estradas"]
                             },
                             {
-                                "pontes" : []
+                                "pontes" : ["infraestrutura","obra","modernizacao","pontes"]
                             }
                         ]
                     }
@@ -236,7 +236,7 @@
                     {
                         "ruas ou estradas" : [
                             {
-                                "value" : []
+                                "value" : ["infraestrutura","pavimentacao","pavimento","ruas","estradas"]
                             }
                         ]
                     }
@@ -247,21 +247,21 @@
                     {
                         "drenagem de aguas pluviais" : [
                             {
-                                "value" : []
+                                "value" : ["drenagem","infraestrutura","saneamento","agua"]
                             }
                         ]
                     },
                     {
                         "coleta de residuos" : [
                             {
-                                "value" : []
+                                "value" : ["infraestrutura","saneamento","coleta","residuos"]
                             }
                         ]
                     },
                     {
                         "limpeza urbana" : [
                             {
-                                "value" : []
+                                "value" : ["infraestrutura","limpeza","saneamento"]
                             }
                         ]
                     }
@@ -276,7 +276,7 @@
                     {
                         "vacinas" : [
                             {
-                                "value" : []
+                                "value" : ["aquisicao","saude","vacina"]
                             }
                         ]
                     }
@@ -287,21 +287,21 @@
                     {
                         "construcao" : [
                             {
-                                "unidades de saude" : []
+                                "unidades de saude" : ["saude","obra","construcao","unidade"]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "unidades de saude" : []
+                                "unidades de saude" : ["saude","obra","reforma","unidade"]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "unidades de saude" : []
+                                "unidades de saude" : ["saude","obra","modernizacao","unidade"]
                             }
                         ]
                     }
@@ -312,7 +312,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["saude","atendimento","populacao"]
                             }
                         ]
                     }
@@ -323,7 +323,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["saude","exame","consulta"]
                             }
                         ]
                     }
@@ -338,30 +338,30 @@
                     {
                         "construcao" : [
                             {
-                                "cadeias" : []
+                                "cadeias" : ["seguranca","contrucao","cadeia"]
                             },
                             {
-                                "delegacias" : []
+                                "delegacias" : ["seguranca","contrucao","delegacia"]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "cadeias" : []
+                                "cadeias" : ["seguranca","reforma","cadeia"]
                             },
                             {
-                                "delegacias" : []
+                                "delegacias" : ["seguranca","reforma","delegacia"]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "cadeias" : []
+                                "cadeias" : ["seguranca","modernizacao","cadeia"]
                             },
                             {
-                                "delegacias" : []
+                                "delegacias" : ["seguranca","modernizacao","delegacia"]
                             }
                         ]
                     }
@@ -372,7 +372,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["seguranca","incentivo","projeto"]
                             }
                         ]
                     }
@@ -383,7 +383,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["seguranca","contratacao","pessoa"]
                             }
                         ]
                     }
@@ -398,7 +398,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["servico","social","iluminacao","publico","publica"]
                             }
                         ]
                     }
@@ -409,7 +409,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["servico","social","seguranca","publica"]
                             }
                         ]
                     }
@@ -420,7 +420,7 @@
                     {
                         "value" : [
                             {
-                                "value" : []
+                                "value" : ["servico","social","apoio","evento"]
                             }
                         ]
                     }
@@ -431,7 +431,7 @@
                     {
                         "aquisicao de bens" : [
                             {
-                                "value" : []
+                                "value" : ["servico","social","apoio","bem","bens"]
                             }
                         ]
                     }
@@ -442,30 +442,30 @@
                     {
                         "construcao" : [
                             {
-                                "centros sociais" : []
+                                "centros sociais" : ["servico","social","construcao","centro"]
                             },
                             {
-                                "areas de lazer" : []
+                                "areas de lazer" : ["servico","social","construcao","lazer"]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "centros sociais" : []
+                                "centros sociais" : ["servico","social","reforma","centro"]
                             },
                             {
-                                "areas de lazer" : []
+                                "areas de lazer" : ["servico","social","reforma","lazer"]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "centros sociais" : []
+                                "centros sociais" : ["servico","social","modernizacao","centro"]
                             },
                             {
-                                "areas de lazer" : []
+                                "areas de lazer" : ["servico","social","modernizacao","lazer"]
                             }
                         ]
                     }
