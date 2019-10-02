@@ -398,7 +398,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["servico","social","iluminacao","publico","publica"]
+                                "value" : ["servico","social","iluminacao","publico","publica","energia","eletrica","urbana"]
                             }
                         ]
                     }
@@ -409,7 +409,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["servico","social","seguranca","publica"]
+                                "value" : ["servico","social","seguranca","publica","videomonitoramento","fortalecimento","guarda"]
                             }
                         ]
                     }
