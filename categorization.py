@@ -56,7 +56,7 @@ if __name__ == '__main__':
     
     stopwords = sw.get_stop_words()     # Carrega as stop-words
     
-    df = pd.read_csv('siconv_cgdad_v2.0_instrumentos_sample_100.txt', sep="\t")
+    df = pd.read_csv('sincov_cgdad_v2.0_instrumentos_sample_100.txt', sep="\t")
     df_descricao = df['descricao_proposta']
 
     descricao_tokens = [[] for _ in range(len(df_descricao))]
@@ -76,7 +76,9 @@ if __name__ == '__main__':
     # Na proxima palvra da mesma linha, ao iterar, somar 1 à mesma posição 
 
     for i,row in enumerate(descricao_tokens,start=0): # iteração por linha]
+        j = "{}".format(row)
         results[i] = dict()
+        results[i]["tuple"] = j
         for word in row: # iteração por palavra na linha
             for cat_obj in clusters: # categorias gerais
                 for cat_arr_str in cat_obj:

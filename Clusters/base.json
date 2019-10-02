@@ -6,14 +6,14 @@
                     {
                         "patrulha mecanizada" : [
                             {
-                                "value" : ["partulha","mecanizada","agricola","aquisicao"]
+                                "value" : ["partulha","mecanizada","agricola","agricolas","aquisicao"]
                             }
                         ]
                     },
                     {
                         "adubos e fertilizantes" : [
                             {
-                                "value" : ["adubo","fertilizante","insumo","aquisicao","solo"]
+                                "value" : ["adubo","fertilizante","insumo","aquisicao","solo","calcarios","calcario","correcao","rurais","rural","produtor","produtores","sementes"]
                             }
                         ]
                     }
@@ -24,7 +24,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["fomento","atividade","agropecuaria","setor","agropecuario","setor","agricultura"]
+                                "value" : ["fomento","atividade","agropecuaria","agropecuario","setor","agricultura","assentamentos","assentamento"]
                             }
                         ]
                     }
@@ -35,7 +35,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["evento","agropecuaria","agropecuario","apoio","agricultura"]
+                                "value" : ["evento","agropecuaria","agropecuario","apoio","agricultura","feira","exposicao","parque","vaquejada","festa"]
                             }
                         ]
                     }
@@ -68,13 +68,16 @@
                     {
                         "construcao" : [
                             {
-                                "escolas" : ["construcao","escola"]
+                                "escolas" : ["construcao","escola","educacao"]
                             },
                             {
-                                "quadras esportivas" : ["construcao", "quadra", "poliesportiva", "esporte"]
+                                "quadras esportivas" : ["construcao", "quadra", "poliesportiva", "esporte","campo","futebol"]
                             },
                             {
                                 "areas de lazer" : ["construcao","lazer"]
+                            },
+                            {
+                                "laboratorio" : []
                             }
                         ]
                     },
@@ -88,6 +91,9 @@
                             },
                             {
                                 "areas de lazer" : ["reforma","lazer"]
+                            },
+                            {
+                                "laboratorio" : []
                             }
                         ]
                     },
@@ -101,6 +107,9 @@
                             },
                             {
                                 "areas de lazer" : ["modernizacao","lazer"]
+                            },
+                            {
+                                "laboratorio" : []
                             }
                         ]
                     }
@@ -153,7 +162,7 @@
                     {
                         "projetos orgaos" : [
                             {
-                                "value" : ["educacao","pesquisa","projeto","governo","apoio","investimento","desenvolvimento"]
+                                "value" : ["educacao","pesquisa","projeto","governo","apoio","investimento","desenvolvimento","ons"]
                             }
                         ]
                     },
@@ -178,7 +187,18 @@
                     {
                         "value" : [
                             {
-                                "value" : ["educacao","extensao"]
+                                "value" : ["educacao","extensao","curso","cursos","desenvolvimento","sistema"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "qualificacao" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : ["qualificacao","educacao","profissional","profissionais","sistema","ensino","capacitacao"]
                             }
                         ]
                     }
@@ -372,7 +392,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["seguranca","incentivo","projeto"]
+                                "value" : ["seguranca","incentivo","projeto","videomonitoramento","solucao","hardware","software","informacoes","sistema"]
                             }
                         ]
                     }
@@ -383,7 +403,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["seguranca","contratacao","pessoa"]
+                                "value" : ["seguranca","contratacao","reestruturacao","pessoa","fortalecimento","guarda"]
                             }
                         ]
                     }
@@ -399,17 +419,6 @@
                         "value" : [
                             {
                                 "value" : ["servico","social","iluminacao","publico","publica","energia","eletrica","urbana"]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "seguranca" : [
-                    {
-                        "value" : [
-                            {
-                                "value" : ["servico","social","seguranca","publica","videomonitoramento","fortalecimento","guarda"]
                             }
                         ]
                     }
@@ -442,30 +451,56 @@
                     {
                         "construcao" : [
                             {
-                                "centros sociais" : ["servico","social","construcao","centro"]
+                                "centros sociais" : ["servico","social","construcao","centro","cras","assistencia","social"]
                             },
                             {
-                                "areas de lazer" : ["servico","social","construcao","lazer"]
+                                "areas de lazer" : ["servico","social","construcao","lazer","praca","arquibancada","estadio","concha","acustica","ciclovia"]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "centros sociais" : ["servico","social","reforma","centro"]
+                                "centros sociais" : ["servico","social","reforma","centro","cras","assistencia","social"]
                             },
                             {
-                                "areas de lazer" : ["servico","social","reforma","lazer"]
+                                "areas de lazer" : ["servico","social","reforma","lazer","praca","arquibancada","estadio","concha","acustica","ciclovia"]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "centros sociais" : ["servico","social","modernizacao","centro"]
+                                "centros sociais" : ["servico","social","modernizacao","centro","cras","assistencia","social"]
                             },
                             {
-                                "areas de lazer" : ["servico","social","modernizacao","lazer"]
+                                "areas de lazer" : ["servico","social","modernizacao","lazer","praca","arquibancada","estadio","concha","acustica","ciclovia"]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "turismo" : [
+            {
+                "apoio a projetos" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : ["apoio","projeto","fortalecimento","turismo","ecoturismo","turista","promocao","infraestrutura","construcao","agroturismo","cultura","lazer","sustentavel"]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "apoio a eventos" : [
+                    {
+                        "value" : [
+                            {
+                                "value" : ["apoio","evento","fortalecimento","turismo","festividade","ecoturismo","turista","promocao","agroturismo","cultura","lazer","sustentavel"]
                             }
                         ]
                     }
