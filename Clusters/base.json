@@ -6,14 +6,14 @@
                     {
                         "patrulha mecanizada" : [
                             {
-                                "value" : ["partulha","mecanizada","agricola","agricolas","aquisicao"]
+                                "value" : [["partulha",3],["mecanizada",3],["agricola",2],["agricolas",2],["aquisicao",0.5],["caminhao",1],["trator",1]]
                             }
                         ]
                     },
                     {
                         "adubos e fertilizantes" : [
                             {
-                                "value" : ["adubo","fertilizante","insumo","aquisicao","solo","calcarios","calcario","correcao","rurais","rural","produtor","produtores","sementes"]
+                                "value" : [["adubo",2],["fertilizante",2],["insumo",1],["aquisicao",1],["solo",2],["calcarios",2],["calcario",2],["correcao",2],["rurais",1],["rural",1],["produtor",1],["produtores",1],["sementes",2]]
                             }
                         ]
                     }
@@ -24,7 +24,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["fomento","atividade","agropecuaria","agropecuario","setor","agricultura","assentamentos","assentamento"]
+                                "value" : [["fomento",2],["atividade",1],["agropecuaria",3],["agropecuario",3],["setor",1],["agricultura",1],["agriculturas",1],["assentamentos",1],["assentamento",1]]
                             }
                         ]
                     }
@@ -35,7 +35,41 @@
                     {
                         "value" : [
                             {
-                                "value" : ["evento","agropecuaria","agropecuario","apoio","agricultura","feira","exposicao","parque","vaquejada","festa"]
+                                "value" : [["evento",3],["agropecuaria",1],["agropecuario",1],["apoio",1],["agricultura",2],["feira",2.5],["exposicao",2.5],["parque",2.5],["vaquejada",1.5],["festa",2]]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "obras" : [
+                    {
+                        "construcao" : [
+                            {
+                                "casa de apoio" : [["agricultura",2],["agricultor",2],["agricola",2],["construcao",3],["ampliacao",3],["casa",3],["casas",3],["apoio",1]]
+                            },
+                            {
+                                "centro comunitario" : [["agricultura",2],["agricultor",2],["agricola",2],["construcao",3],["ampliacao",3],["centro",3],["centros",3],["comunitario",3],["comunitarios",3]]
+                            }
+                        ]
+                    },
+                    {
+                        "reforma" : [
+                            {
+                                "casa de apoio" : [["agricultura",2],["agricultor",2],["agricola",2],["reforma",3],["melhoria",3],["casa",3],["casas",3],["apoio",1]]
+                            },
+                            {
+                                "centro comunitario" : [["agricultura",2],["agricultor",2],["agricola",2],["reforma",3],["melhoria",3],["centro",3],["centros",3],["comunitario",3],["comunitarios",3]]
+                            }
+                        ]
+                    },
+                    {
+                        "modernizacao" : [
+                            {
+                                "casa de apoio" : [["agricultura",2],["agricultor",2],["agricola",2],["modernizacao",3],["casa",3],["casas",3],["apoio",1]]
+                            },
+                            {
+                                "centro comunitario" : [["agricultura",2],["agricultor",2],["agricola",2],["modernizacao",3],["centro",3],["centros",3],["comunitario",3],["comunitarios",3]]
                             }
                         ]
                     }
@@ -50,14 +84,14 @@
                     {
                         "laboratorios" : [
                             {
-                                "value" : ["aquisicao","laboratorio","educacao"]
+                                "value" : [["aquisicao",2],["laboratorio",3],["material",2],["materiais",2],["educacao",1]]
                             }
                         ]
                     },
                     {
                         "instituicao de ensino" : [
                             {
-                                "value" : ["educacao","ensino","aquisicao","ensino","instituicao"]
+                                "value" : [["educacao",2],["ensino",2],["aquisicao",3],["ensino",1],["livro",3],["livros",3],["caderno",3],["cadernos",3],["instituicao",2]]
                             }
                         ]
                     }
@@ -68,48 +102,48 @@
                     {
                         "construcao" : [
                             {
-                                "escolas" : ["construcao","escola","educacao"]
+                                "escolas" : [["construcao",3],["conclusao",2],["escola",],["escolas",],["educacao",]]
                             },
                             {
-                                "quadras esportivas" : ["construcao", "quadra", "poliesportiva", "esporte","campo","futebol"]
+                                "quadras esportivas" : [["construcao",],["conclusao",],["ginasios",], ["quadra",],["complexo",],["poliesportiva",],["poliesportivo",],["esportivo",],["esporte",],["esportes",],["campo",],["campos",],["futebol",]]
                             },
                             {
-                                "areas de lazer" : ["construcao","lazer"]
+                                "areas de lazer" : [["construcao",],["conclusao",],["lazer",],["ginasio",],["parque",],["parques",],["campo",],["campos",]]
                             },
                             {
-                                "laboratorio" : []
+                                "laboratorio" : [["construcao",],["conclusao",],["laboratorio",],["educacao",],["ensino",]]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "escolas" : ["reforma","escola"]
+                                "escolas" : [["reforma",],["reestruturacao",],["revitalizacao",],["escola",],["escolas",],["educacao",]]
                             },
                             {
-                                "quadras esportivas" : ["reforma", "quadra", "poliesportiva", "esporte"]
+                                "quadras esportivas" : [["reforma",],["reestruturacao",],["revitalizacao",],["ginasios",],["quadra",],["complexo",],["poliesportiva",],["poliesportivo",],["esportivo",],["esporte",],["esportes",],["campo",],["campos",],["futebol",]]
                             },
                             {
-                                "areas de lazer" : ["reforma","lazer"]
+                                "areas de lazer" : [["reforma",],["reestruturacao",],["revitalizacao",],["lazer",],["ginasio",],["parque",],["parques",],["campo",],["campos",]]
                             },
                             {
-                                "laboratorio" : []
+                                "laboratorio" : [["reforma",],["reestruturacao",],["revitalizacao",],["laboratorio",],["educacao",],["ensino",]]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "escolas" : ["modernizacao","escola"]
+                                "escolas" : [["modernizacao",],["ampliacao",],["melhoria",],["melhorias",],["escola",],["escolas",],["educacao",]]
                             },
                             {
-                                "quadras esportivas" : ["modernizacao", "quadra", "poliesportiva", "esporte"]
+                                "quadras esportivas" : [["modernizacao",],["ampliacao",],["melhoria",],["melhorias",],["quadra",],["complexo",],["poliesportiva",],["poliesportivo",],["esportivo",],["esporte",],["esportes",],["campo",],["campos",],["futebol",]]
                             },
                             {
-                                "areas de lazer" : ["modernizacao","lazer"]
+                                "areas de lazer" : [["modernizacao",],["ampliacao",],["melhoria",],["melhorias",],["lazer",],["ginasio",],["parque",],["parques",],["campo",],["campos",]]
                             },
                             {
-                                "laboratorio" : []
+                                "laboratorio" : [["modernizacao",],["ampliacao",],["melhoria",],["melhorias",],["laboratorio",],["educacao",],["ensino",]]
                             }
                         ]
                     }
@@ -118,40 +152,37 @@
             {
                 "ensino" : [
                     {
-                        "escola" : [
+                        "escola/universidade" : [
                             {
-                                "presencial" : ["educacao","ensino","presencial","escola"]
-                            },
-                            {
-                                "distancia" : ["educacao","ensino","distancia","escola"]
+                                "value" : [["educacao",],["ensino",],["distancia",],["escola",],["curso",],["cursos",],["oferta",],["ofertas",],["reoferta",],["reofertas",],["graduacao",],["pos",],["especializacao",],["universidade",],["bacharelado",],["bacharelados",],["mestrado",],["mestrados",],["aprofundamento",],["aprofundamentos",],["conhecimento",],["conhecimentos",]]
                             }
                         ]
                     },
                     {
                         "alfabetizacao" : [
                             {
-                                "value" : ["educacao","alfabetizacao","ensino"]
+                                "value" : [["educacao",],["alfabetizacao",],["ensino",],["curso",],["cursos",]]
                             }
                         ]
                     },
                     {
                         "governo" : [
                             {
-                                "value" : ["educacao","governo","ensino"]
+                                "value" : [["educacao",],["governo",],["ensino",],["curso",],["cursos",]]
                             }
                         ]
                     },
                     {
                         "populacao" : [
                             {
-                                "value" : ["ensino","populacao","educacao"]
+                                "value" : [["ensino",],["populacao",],["educacao",],["curso",],["cursos",]]
                             }
                         ]
                     },
                     {
                         "capacitacao de professores" : [
                             {
-                                "value" : ["capacitacao","professores","educacao","ensino"]
+                                "value" : [["capacitacao",],["professores",],["educacao",],["ensino",],["curso",],["cursos",]]
                             }
                         ]
                     }
@@ -162,21 +193,21 @@
                     {
                         "projetos orgaos" : [
                             {
-                                "value" : ["educacao","pesquisa","projeto","governo","apoio","investimento","desenvolvimento","ons"]
+                                "value" : [["educacao",],["pesquisa",],["projeto",],["governo",],["apoio",],["investimento",],["desenvolvimento",],["ons",],["especializacao",]]
                             }
                         ]
                     },
                     {
                         "graduacao" : [
                             {
-                                "value" : ["pesquisa","governo","graduacao","pesquisa","educacao"]
+                                "value" : [["pesquisa",],["governo",],["graduacao",],["pesquisa",],["educacao",],["especializacao",],["bacharelado",],["bacharelados",]]
                             }
                         ]
                     },
                     {
                         "pos graduacao" : [
                             {
-                                "value" : ["pesquisa","graduacao","pos","educacao"]
+                                "value" : [["pesquisa",],["graduacao",],["pos",],["educacao",],["especializacao",],["mestrado",],["mestrados",]]
                             }
                         ]
                     }
@@ -187,7 +218,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["educacao","extensao","curso","cursos","desenvolvimento","sistema"]
+                                "value" : [["implantacao",],["educacao",],["extensao",],["curso",],["cursos",],["desenvolvimento",],["sistema",],["capacitacao",],["especializacao",]]
                             }
                         ]
                     }
@@ -198,7 +229,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["qualificacao","educacao","profissional","profissionais","sistema","ensino","capacitacao"]
+                                "value" : [["qualificacao",],["educacao",],["profissional",],["profissionais",],["sistema",],["ensino",],["capacitacao",],["especializacao",]]
                             }
                         ]
                     }
@@ -213,39 +244,39 @@
                     {
                         "construcao" : [
                             {
-                                "sistemas de abastecimento" : ["infraestrutura","obra","construcao","abastecimento"]
+                                "sistemas de abastecimento" : [["infraestrutura",],["obra",],["construcao",],["abastecimento",]]
                             },
                             {
-                                "estradas" : ["infraestrutura","obra","construcao","estradas"]
+                                "estradas" : [["infraestrutura",],["obra",],["construcao",],["estradas",]]
                             },
                             {
-                                "pontes" : ["infraestrutura","obra","construcao","pontes"]
+                                "pontes" : [["infraestrutura",],["obra",],["construcao",],["pontes",]]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "sistemas de abastecimentos" : ["infraestrutura","obra","reforma","abastecimento"]
+                                "sistemas de abastecimentos" : [["infraestrutura",],["obra",],["reforma",],["abastecimento",]]
                             },
                             {
-                                "estradas" : ["infraestrutura","obra","reforma","estradas"]
+                                "estradas" : [["infraestrutura",],["obra",],["reforma",],["estradas",]]
                             },
                             {
-                                "pontes" : ["infraestrutura","obra","reforma","pontes"]
+                                "pontes" : [["infraestrutura",],["obra",],["reforma",],["pontes",]]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "sistemas de abastecimentos" : ["infraestrutura","obra","modernizacao","abastecimento"]
+                                "sistemas de abastecimentos" : [["infraestrutura",],["obra",],["modernizacao",],["abastecimento",]]
                             },
                             {
-                                "estradas" : ["infraestrutura","obra","modernizacao","estradas"]
+                                "estradas" : [["infraestrutura",],["obra",],["modernizacao",],["estradas",]]
                             },
                             {
-                                "pontes" : ["infraestrutura","obra","modernizacao","pontes"]
+                                "pontes" : [["infraestrutura",],["obra",],["modernizacao",],["pontes",]]
                             }
                         ]
                     }
@@ -256,7 +287,7 @@
                     {
                         "ruas ou estradas" : [
                             {
-                                "value" : ["infraestrutura","pavimentacao","pavimento","ruas","estradas"]
+                                "value" : [["infraestrutura",],["pavimentacao",],["pavimento",],["ruas",],["estradas",]]
                             }
                         ]
                     }
@@ -267,21 +298,21 @@
                     {
                         "drenagem de aguas pluviais" : [
                             {
-                                "value" : ["drenagem","infraestrutura","saneamento","agua"]
+                                "value" : [["drenagem",],["infraestrutura",],["saneamento",],["agua",]]
                             }
                         ]
                     },
                     {
                         "coleta de residuos" : [
                             {
-                                "value" : ["infraestrutura","saneamento","coleta","residuos"]
+                                "value" : [["infraestrutura",],["saneamento",],["coleta",],["residuos",]]
                             }
                         ]
                     },
                     {
                         "limpeza urbana" : [
                             {
-                                "value" : ["infraestrutura","limpeza","saneamento"]
+                                "value" : [["infraestrutura",],["limpeza",],["saneamento",]]
                             }
                         ]
                     }
@@ -296,7 +327,7 @@
                     {
                         "vacinas" : [
                             {
-                                "value" : ["aquisicao","saude","vacina"]
+                                "value" : [["aquisicao",],["saude",],["vacina",]]
                             }
                         ]
                     }
@@ -307,21 +338,21 @@
                     {
                         "construcao" : [
                             {
-                                "unidades de saude" : ["saude","obra","construcao","unidade"]
+                                "unidades de saude" : [["saude",],["obra",],["construcao",],["unidade",]]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "unidades de saude" : ["saude","obra","reforma","unidade"]
+                                "unidades de saude" : [["saude",],["obra",],["reforma",],["unidade",]]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "unidades de saude" : ["saude","obra","modernizacao","unidade"]
+                                "unidades de saude" : [["saude",],["obra",],["modernizacao",],["unidade",]]
                             }
                         ]
                     }
@@ -332,7 +363,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["saude","atendimento","populacao"]
+                                "value" : [["saude",],["atendimento",],["populacao",]]
                             }
                         ]
                     }
@@ -343,7 +374,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["saude","exame","consulta"]
+                                "value" : [["saude",],["exame",],["consulta",]]
                             }
                         ]
                     }
@@ -358,30 +389,30 @@
                     {
                         "construcao" : [
                             {
-                                "cadeias" : ["seguranca","contrucao","cadeia"]
+                                "cadeias" : [["seguranca",],["contrucao",],["cadeia",],["cadeias",],["preso",],["publica",],["publicas",],["presos",],["complexo",],["complexos",],["penitenciario",],["penitenciarios",]]
                             },
                             {
-                                "delegacias" : ["seguranca","contrucao","delegacia"]
+                                "delegacias" : [["seguranca",],["contrucao",],["delegacia",],["delegacias",],["policial",],["policiais",]]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "cadeias" : ["seguranca","reforma","cadeia"]
+                                "cadeias" : [["seguranca",],["reforma",],["cadeia",]]
                             },
                             {
-                                "delegacias" : ["seguranca","reforma","delegacia"]
+                                "delegacias" : [["seguranca",],["reforma",],["delegacia",]]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "cadeias" : ["seguranca","modernizacao","cadeia"]
+                                "cadeias" : [["seguranca",],["modernizacao",],["cadeia",]]
                             },
                             {
-                                "delegacias" : ["seguranca","modernizacao","delegacia"]
+                                "delegacias" : [["seguranca",],["modernizacao",],["delegacia",]]
                             }
                         ]
                     }
@@ -392,7 +423,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["seguranca","incentivo","projeto","videomonitoramento","solucao","hardware","software","informacoes","sistema"]
+                                "value" : [["seguranca",],["projeto",],["videomonitoramento",],["solucao",],["informacoes",],["sistema",]]
                             }
                         ]
                     }
@@ -403,7 +434,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["seguranca","contratacao","reestruturacao","pessoa","fortalecimento","guarda"]
+                                "value" : [["seguranca",],["contratacao",],["reestruturacao",],["pessoa",],["fortalecimento",],["guarda",]]
                             }
                         ]
                     }
@@ -418,7 +449,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["servico","social","iluminacao","publico","publica","energia","eletrica","urbana"]
+                                "value" : [["servico",],["social",],["iluminacao",],["publico",],["publica",],["energia",],["eletrica",],["urbana",]]
                             }
                         ]
                     }
@@ -429,7 +460,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["servico","social","apoio","evento"]
+                                "value" : [["servico",],["social",],["apoio",],["evento",]]
                             }
                         ]
                     }
@@ -440,7 +471,7 @@
                     {
                         "aquisicao de bens" : [
                             {
-                                "value" : ["servico","social","apoio","bem","bens"]
+                                "value" : [["servico",],["social",],["apoio",],["bem",],["bens",]]
                             }
                         ]
                     }
@@ -451,30 +482,30 @@
                     {
                         "construcao" : [
                             {
-                                "centros sociais" : ["servico","social","construcao","centro","cras","assistencia","social"]
+                                "centros sociais" : [["servico",],["social",],["construcao",],["centro",],["cras",],["assistencia",],["social",]]
                             },
                             {
-                                "areas de lazer" : ["servico","social","construcao","lazer","praca","arquibancada","estadio","concha","acustica","ciclovia"]
+                                "areas de lazer" : [["servico",],["social",],["construcao",],["lazer",],["praca",],["arquibancada",],["estadio",],["concha",],["acustica",],["ciclovia",]]
                             }
                         ]
                     },
                     {
                         "reforma" : [
                             {
-                                "centros sociais" : ["servico","social","reforma","centro","cras","assistencia","social"]
+                                "centros sociais" : [["servico",],["social",],["reforma",],["centro",],["cras",],["assistencia",],["social",]]
                             },
                             {
-                                "areas de lazer" : ["servico","social","reforma","lazer","praca","arquibancada","estadio","concha","acustica","ciclovia"]
+                                "areas de lazer" : [["servico",],["social",],["reforma",],["lazer",],["praca",],["arquibancada",],["estadio",],["concha",],["acustica",],["ciclovia",]]
                             }
                         ]
                     },
                     {
                         "modernizacao" : [
                             {
-                                "centros sociais" : ["servico","social","modernizacao","centro","cras","assistencia","social"]
+                                "centros sociais" : [["servico",],["social",],["modernizacao",],["centro",],["cras",],["assistencia",],["social",]]
                             },
                             {
-                                "areas de lazer" : ["servico","social","modernizacao","lazer","praca","arquibancada","estadio","concha","acustica","ciclovia"]
+                                "areas de lazer" : [["servico",],["social",],["modernizacao",],["lazer",],["praca",],["arquibancada",],["estadio",],["concha",],["acustica",],["ciclovia",]]
                             }
                         ]
                     }
@@ -489,7 +520,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["apoio","projeto","fortalecimento","turismo","ecoturismo","turista","promocao","infraestrutura","construcao","agroturismo","cultura","lazer","sustentavel"]
+                                "value" : [["apoio",],["projeto",],["fortalecimento",],["turismo",],["ecoturismo",],["turista",],["promocao",],["infraestrutura",],["construcao",],["agroturismo",],["cultura",],["lazer",],["sustentavel",]]
                             }
                         ]
                     }
@@ -500,7 +531,7 @@
                     {
                         "value" : [
                             {
-                                "value" : ["apoio","evento","fortalecimento","turismo","festividade","ecoturismo","turista","promocao","agroturismo","cultura","lazer","sustentavel"]
+                                "value" : [["apoio",],["evento",],["fortalecimento",],["turismo",],["festividade",],["ecoturismo",],["turista",],["promocao",],["agroturismo",],["cultura",],["lazer",],["sustentavel",]]
                             }
                         ]
                     }

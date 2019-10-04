@@ -32,6 +32,9 @@ def getchar():
     a = input('').split(" ")[0]
     print(a)
 
+def getValue(item):
+    return item[1]
+
 def remove_accents(input_str):
     nfkd_form = unicodedata.normalize('NFKD', input_str)
     return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
@@ -56,7 +59,7 @@ if __name__ == '__main__':
     
     stopwords = sw.get_stop_words()     # Carrega as stop-words
     
-    df = pd.read_csv('sincov_cgdad_v2.0_instrumentos_sample_100.txt', sep="\t")
+    df = pd.read_csv('siconv_cgdad_v2.0_instrumentos.txt', sep="\t")
     df_descricao = df['descricao_proposta']
 
     descricao_tokens = [[] for _ in range(len(df_descricao))]
@@ -70,15 +73,16 @@ if __name__ == '__main__':
 
     results = dict()
     categorias_name = []
+    rows = []
 
     # TODO para cada linha saber quantas palavras da categoria especifica bate, ou seja,
     # iterar para cada palavra em todas as categorias e somar 1 nas posições das categorias.
     # Na proxima palvra da mesma linha, ao iterar, somar 1 à mesma posição 
 
     for i,row in enumerate(descricao_tokens,start=0): # iteração por linha]
-        j = "{}".format(row)
+        rows.append("{}:{}".format(i+2,row))
         results[i] = dict()
-        results[i]["tuple"] = j
+        #results[i]["tuple"] = j
         for word in row: # iteração por palavra na linha
             for cat_obj in clusters: # categorias gerais
                 for cat_arr_str in cat_obj:
@@ -110,8 +114,34 @@ if __name__ == '__main__':
 
                                             if word in cat4_arr:
                                                 results[i][catname] += 1
-                                            
-jsonO = json.dumps(results)
+
+results_final = dict()
+result_final_duplicated = dict()
+
+for dict_results_final_row_index in results:
+    dict_results_final_row = results.get(dict_results_final_row_index)
+    row_tuple_list = dict_results_final_row.items()
+
+    row_result = "" 
+    sorted_row_result = sorted(row_tuple_list,key=getValue,reverse=True)
+
+    if sorted_row_result[0][1] == 0:
+        row_result = "outros"
+        results_final[rows[dict_results_final_row_index]] = row_result
+    else :
+        row_result = sorted_row_result[0][0]
+        i = 0
+        duplicated = False
+        while sorted_row_result[i][1] == sorted_row_result[i + 1][1] :
+            row_result += " | " + sorted_row_result[i + 1][0]
+            i += 1
+            duplicated = True
+        if duplicated :
+            result_final_duplicated[rows[dict_results_final_row_index]] = row_result
+        else :
+            results_final[rows[dict_results_final_row_index]] = row_result
+
+jsonO = json.dumps(result_final_duplicated)
 print(jsonO)
 '''
  ####################################################
