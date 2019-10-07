@@ -121,6 +121,7 @@ if __name__ == '__main__':
 
 results_final = dict()
 result_final_duplicated = dict()
+result_final_not_duplicated = dict()
 
 for dict_results_final_row_index in results:
     dict_results_final_row = results.get(dict_results_final_row_index)
@@ -143,10 +144,20 @@ for dict_results_final_row_index in results:
         if duplicated :
             result_final_duplicated[rows[dict_results_final_row_index]] = row_result
         else :
-            results_final[rows[dict_results_final_row_index]] = row_result
+            result_final_not_duplicated[rows[dict_results_final_row_index]] = row_result
+        results_final[rows[dict_results_final_row_index]] = row_result
 
-jsonO = json.dumps(result_final_duplicated)
-print(jsonO)
+with open('out.csv', 'w') as f:
+    i = 0
+    for key in results_final:
+        value = results_final[key]
+        string = str(df_descricao[i]) + "[" + value
+        i += 1
+        f.write(string)
+        f.write("\n")
+
+#jsonO = json.dumps(result_final_duplicated)
+#print(jsonO)
 '''
  ####################################################
     #Exemplo : linha 161 do csvsiconv_cgdad_v2.0_instrumentos.txt
