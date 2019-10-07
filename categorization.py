@@ -112,8 +112,12 @@ if __name__ == '__main__':
                                             if catname not in results[i]:
                                                 results[i][catname] = 0
 
-                                            if word in cat4_arr:
-                                                results[i][catname] += 1
+                                            for cat4_arr_arr in cat4_arr:
+                                                if word == cat4_arr_arr[0] :
+                                                    results[i][catname] += cat4_arr_arr[1]
+
+                                            #if word in cat4_arr:
+                                            #    results[i][catname] += 1
 
 results_final = dict()
 result_final_duplicated = dict()
