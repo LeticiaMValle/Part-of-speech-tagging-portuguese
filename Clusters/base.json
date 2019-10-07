@@ -154,7 +154,7 @@
                     {
                         "escola/universidade" : [
                             {
-                                "value" : [["educacao",4],["ensino",4],["distancia",1],["escola",6],["curso",6],["cursos",6],["oferta",6],["ofertas",6],["reoferta",6],["reofertas",6],["graduacao",6],["pos",6],["especializacao",6],["universidade",6],["bacharelado",5],["bacharelados",5],["mestrado",5],["mestrados",5],["aprofundamento",4],["aprofundamentos",4],["conhecimento",3],["conhecimentos",3]]
+                                "value" : [["educacao",4],["ensino",4],["distancia",1],["escola",6],["curso",6],["cursos",6],["oferta",6],["ofertas",6],["reoferta",6],["reofertas",6],["graduacao",6],["pos",6],["especializacao",6],["universidade",6],["bacharelado",5],["bacharelados",5],["mestrado",5],["mestrados",5],["aprofundamento",4],["aprofundamentos",4],["conhecimento",3],["conhecimentos",3],["vestibular",6]]
                             }
                         ]
                     },
