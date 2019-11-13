@@ -251,6 +251,9 @@
                             },
                             {
                                 "pontes" : [["infraestrutura",3],["obra",4],["construcao",6],["pontes",6]]
+                            },
+                            {
+                                "infraestrutura esportiva" : [["infraestrutura",3],["obra",4],["construcao",6],["pontes",6],["esportiva",6]]
                             }
                         ]
                     },
@@ -264,6 +267,9 @@
                             },
                             {
                                 "pontes" : [["infraestrutura",2],["obra",3],["reforma",6],["pontes",6]]
+                            },
+                            {
+                                "infraestrutura esportiva" : [["infraestrutura",3],["obra",4],["construcao",6],["pontes",6],["esportiva",6]]
                             }
                         ]
                     },
@@ -277,6 +283,9 @@
                             },
                             {
                                 "pontes" : [["infraestrutura",2],["obra",3],["modernizacao",6],["pontes",6]]
+                            },
+                            {
+                                "infraestrutura esportiva" : [["infraestrutura",3],["obra",4],["construcao",6],["pontes",6],["esportiva",6]]
                             }
                         ]
                     }
