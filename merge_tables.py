@@ -10,8 +10,9 @@ result_final = pd.DataFrame(columns=to_filter_table.columns)
 
 for id_proposta in filter_table['id_proposta']:
     append = pd.DataFrame(to_filter_table[to_filter_table['id_proposta'] == id_proposta].values,columns=to_filter_table.columns)
-    print(append)
-    getchar()
-    result_final.append(append,ignore_index=True)
-
-print(result_final)
+    
+    if id_proposta not in result_final['id_proposta'].values:
+        result_final = result_final.append(append,ignore_index=True)
+        
+result_final = result_final.drop_duplicates('id_proposta')
+result_final.to_csv(r'csv_final.csv')
