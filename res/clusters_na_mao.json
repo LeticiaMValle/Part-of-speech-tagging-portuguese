@@ -1,65 +1,80 @@
 [
     {
-        "agricultura" : [
-            {
-                "aquisicao de equipamentos" : [
-                    {
-                        "patrulha mecanizada" : [
-                            [
-                                "718438",
-                                "Aquisição de Patrulha Agrícola Mecanizada com o objetivo de estruturar e adensar a cadeia produtiva leiteira do município de Renascença-PR."
-                            ],
-                            [
-                                "803748",
-                                "Aquisição de máquinas e implementos agrícolas para auxiliar na produção agrícola dos assentamentos, composto de: O2 Plantadora Adubadora de Arasto, 01 Grade Aradora, 01 Caminhão, 02 Tratores, 02 Enxada Rotativa, 01 distribuidor de Adubo,01 Grade Aradora."
-                            ],
-                            [
-                                "713533",
-                                "Aquisição de Máquinas e Implementos Agrícolas e Equipamentos de Costura e Bordado visando o fortalecimento da Agricultura Familiar e da Economia Criativa, no município de Bonito de Minas – MG."
-                            ],
-                            [
-                                "721839",
-                                "Aquisição de um Caminhão Caçamba Basculante para fomentar melhorias nas vias de acesso às Comunidades do Município de São João, afim de incrementar o escoamento da produção da agricultura familiar."
-                            ],
-                            [
-                                "723167",
-                                "Aquisição de Patrulha Agrícola para atender as comunidades rurais no desenvolvimento da agricultura e piscicultura no município de Gurupi - TO."
-                            ],
-                            [
-                                "782334",
-                                "Aquisição de uma perfuradora de Poços Artesiano Completa, composta de: 01 perfuradora montada em um Caminhão Basculante com capacidade de perfuração de 300 metros de profundidade, 01 Compressor de 390HP montado em cima de um Caminhão Truco Basculante com carroceria, que irá aumentar a oferta de água, atendendo aos pequenos agricultores, ao polo de confecção que depende diretamente de água para desenvolver suas atividades de trabalho, atenderá também ao polo moveleiro, criando mais emprego e aumentando a renda per capita dessa região, dessa forma irá expandir a cadeia de produção de seu produtos, consequentemente diminuindo as desiqualdades socias."
-                            ],
-                            [
-                                "739590",
-                                "AQUISIÇÃO DE EQUIPAMENTOS AGRÍCOLAS"
-                            ],
-                            [
-                                "706565",
-                                "Uma Pá Carregadeira zero km (Maquina)"
-                            ],
-                            [
-                                "724301",
-                                "Aquisição de Maquinário para apoio a projetos de desenvolvimento e fomento do Setor Agropecuário."
-                            ],
-                            [
-                                "717012",
-                                "Aquisição de Tratores com Implementos Agrícolas beneficiando diversos Municípios do Estado da Bahia."
-                            ],
-                            [
-                                "683061",
-                                "PATRULHA AGRÍCOLA MECANIZADA"
-                            ],
-                            [
-                                "732321",
-                                "AQUISIÇÃO DE PATRULHA AGRÍCOLA MECANIZADA."
-                            ]
-                        ],
-                        "adubos e fertilizantes" : [
-
-                        ]
-                    }
-                ]
-            }
+        "cat" : "A0110",
+        "dados" : [
+            [
+                "718438",
+                "Aquisição de Patrulha Agrícola Mecanizada com o objetivo de estruturar e adensar a cadeia produtiva leiteira do município de Renascença-PR."
+            ],
+            [
+                "803748",
+                "Aquisição de máquinas e implementos agrícolas para auxiliar na produção agrícola dos assentamentos, composto de: O2 Plantadora Adubadora de Arasto, 01 Grade Aradora, 01 Caminhão, 02 Tratores, 02 Enxada Rotativa, 01 distribuidor de Adubo,01 Grade Aradora."
+            ],
+            [
+                "713533",
+                "Aquisição de Máquinas e Implementos Agrícolas e Equipamentos de Costura e Bordado visando o fortalecimento da Agricultura Familiar e da Economia Criativa, no município de Bonito de Minas – MG."
+            ],
+            [
+                "721839",
+                "Aquisição de um Caminhão Caçamba Basculante para fomentar melhorias nas vias de acesso às Comunidades do Município de São João, afim de incrementar o escoamento da produção da agricultura familiar."
+            ],
+            [
+                "723167",
+                "Aquisição de Patrulha Agrícola para atender as comunidades rurais no desenvolvimento da agricultura e piscicultura no município de Gurupi - TO."
+            ],
+            [
+                "782334",
+                "Aquisição de uma perfuradora de Poços Artesiano Completa, composta de: 01 perfuradora montada em um Caminhão Basculante com capacidade de perfuração de 300 metros de profundidade, 01 Compressor de 390HP montado em cima de um Caminhão Truco Basculante com carroceria, que irá aumentar a oferta de água, atendendo aos pequenos agricultores, ao polo de confecção que depende diretamente de água para desenvolver suas atividades de trabalho, atenderá também ao polo moveleiro, criando mais emprego e aumentando a renda per capita dessa região, dessa forma irá expandir a cadeia de produção de seu produtos, consequentemente diminuindo as desiqualdades socias."
+            ],
+            [
+                "739590",
+                "AQUISIÇÃO DE EQUIPAMENTOS AGRÍCOLAS"
+            ],
+            [
+                "706565",
+                "Uma Pá Carregadeira zero km (Maquina)"
+            ],
+            [
+                "724301",
+                "Aquisição de Maquinário para apoio a projetos de desenvolvimento e fomento do Setor Agropecuário."
+            ],
+            [
+                "717012",
+                "Aquisição de Tratores com Implementos Agrícolas beneficiando diversos Municípios do Estado da Bahia."
+            ],
+            [
+                "683061",
+                "PATRULHA AGRÍCOLA MECANIZADA"
+            ],
+            [
+                "732321",
+                "AQUISIÇÃO DE PATRULHA AGRÍCOLA MECANIZADA."
+            ]
+        ]
+    },
+    {
+        "cat" : "A0120",
+        "dados" : [
+            [
+                "704065",
+                "Projeto de aquisição de sementes e adubos de plantio e de cobertura para fomento da cultura do feijoeiro em propriedades rurais familiares do município de Rio das Ostras-RJ."
+            ],
+            [
+                "743697",
+                "PROJETO DE AQUISIÇÃO DE  FERTILIZANTES PARA DISTRIBUIÇÃO AOS PEQUENOS AGRICULTORES DO MUNICÍPIO."
+            ],
+            [
+                "710679",
+                "Projeto de aquisição de calcário para correção do solo."
+            ],
+            [
+                "721386",
+                "Projeto de aquisição de Super Fosfato Simples fórmula 0-18-o para melhoramento do solo do município."
+            ],
+            [
+                "810829",
+                "Projeto de aquisição de insumos para distribuição aos pequenos agricultores do município de Corrente - PI"
+            ]
         ]
     }
 ]
