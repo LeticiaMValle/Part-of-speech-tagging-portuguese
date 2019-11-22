@@ -1,0 +1,374 @@
+[
+    {
+        "cat" : "Agricultura->Aquisicao de equipamentos->Patrulha Mecanizada",
+        "id" : "A0110"
+    },
+    {
+        "cat" : "Agricultura->Aquisicao de equipamentos->Adubos e Fertilizantes",
+        "id" : "A0120"
+    },
+    {
+        "cat" : "Agricultura->Aquisicao de equipamentos->Outros",
+        "id" : "A0100"
+    },
+    {
+        "cat" : "Agricultura->Fomento a atividades agropecuarias",
+        "id" : "A0200"
+    },
+    {
+        "cat" : "Agricultura->Apoio a eventos",
+        "id" : "A0300"
+    },
+    {
+        "cat" : "Agricultura->Outros",
+        "id" : "A0000"
+    },
+    {
+        "cat" : "Seguranca->Obras->Construcao->Cadeias",
+        "id" : "S0111"
+    },
+    {
+        "cat" : "Seguranca->Obras->Construcao->Delegacias",
+        "id" : "S0112"
+    },
+    {
+        "cat" : "Seguranca->Obras->Construcao->Outros",
+        "id" : "S0110"
+    },
+    {
+        "cat" : "Seguranca->Obras->Reforma->Cadeias",
+        "id" : "S0121"
+    },
+    {
+        "cat" : "Seguranca->Obras->Reforma->Delegacias",
+        "id" : "S0122"
+    },
+    {
+        "cat" : "Seguranca->Obras->Reforma->Outros",
+        "id" : "S0120"
+    },
+    {
+        "cat" : "Seguranca->Obras->Modernizacao->Cadeias",
+        "id" : "S0131"
+    },
+    {
+        "cat" : "Seguranca->Obras->Modernizacao->Delegacias",
+        "id" : "S0132"
+    },
+    {
+        "cat" : "Seguranca->Obras->Modernizacao->Outros",
+        "id" : "S0130"
+    },
+    {
+        "cat" : "Seguranca->Incentivo a projetos",
+        "id" : "S0200"
+    },
+    {
+        "cat" : "Seguranca->Contratacao de pessoal",
+        "id" : "S0300"
+    },
+    {
+        "cat" : "Seguranca->Outros",
+        "id" : "S0000"
+    },
+    {
+        "cat" : "Turismo->Apoio a projetos",
+        "id" : "T0100"
+    },
+    {
+        "cat" : "Turismo->Apoio a eventos",
+        "id" : "T0200"
+    },
+    {
+        "cat" : "Turismo->Outros",
+        "id" : "T0000"
+    },
+    {
+        "cat" : "Servicos sociais->Iluminacao publica",
+        "id" : "S1100"
+    },
+    {
+        "cat" : "Servicos sociais->Seguranca",
+        "id" : "S1200"
+    },
+    {
+        "cat" : "Servicos sociais->Apoio a eventos",
+        "id" : "S1300"
+    },
+    {
+        "cat" : "Servicos sociais->Apoio a causas sociais->Aquisicao de bens",
+        "id" : "S1410"
+    },
+    {
+        "cat" : "Servicos sociais->Apoio a causas sociais->Outros",
+        "id" : "S1400"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Construcao->Centros sociais",
+        "id" : "S1511"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Construcao->Areas de lazer",
+        "id" : "S1512"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Construcao->Outros",
+        "id" : "S1510"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Reforma->Centros sociais",
+        "id" : "S1521"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Reforma->Areas de lazer",
+        "id" : "S1522"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Reforma->Outros",
+        "id" : "S1520"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Modernizacao->Centros sociais",
+        "id" : "S1531"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Modernizacao->Areas de lazer",
+        "id" : "S1532"
+    },
+    {
+        "cat" : "Servicos sociais->Obras->Modernizacao->Outros",
+        "id" : "S1530"
+    },
+    {
+        "cat" : "Servicos sociais->Outros",
+        "id" : "S1000"
+    },
+    {
+        "cat" : "Saude->Aquisicao de materiais->Vacinas",
+        "id" : "S2110"
+    },
+    {
+        "cat" : "Saude->Aquisicao de materiais->Outros",
+        "id" : "S2100"
+    },
+    {
+        "cat" : "Saude->Obras->Construcao->Unidade de saude",
+        "id" : "S2211"
+    },
+    {
+        "cat" : "Saude->Obras->Construcao->Outros",
+        "id" : "S2210"
+    },
+    {
+        "cat" : "Saude->Obras->Reforma->Unidade de saude",
+        "id" : "S22221"
+    },
+    {
+        "cat" : "Saude->Obras->Reforma->Outros",
+        "id" : "S2220"
+    },
+    {
+        "cat" : "Saude->Obras->Modernizacao->Unidade de saude",
+        "id" : "S2231"
+    },
+    {
+        "cat" : "Saude->Obras->Modernizacao->Outros",
+        "id" : "S2230"
+    },
+    {
+        "cat" : "Saude->Atendimento a populacao",
+        "id" : "S2300"
+    },
+    {
+        "cat" : "Saude->Realizacao de exames e consultas",
+        "id" : "S2400"
+    },
+    {
+        "cat" : "Saude->Outros",
+        "id" : "S2000"
+    },
+    {
+        "cat" : "Educacao->Aquisicao de materiais->Laboratorios",
+        "id" : "E0110"
+    },
+    {
+        "cat" : "Educacao->Aquisicao de materiais->Instituicao de ensino",
+        "id" : "E0120"
+    },
+    {
+        "cat" : "Educacao->Aquisicao de materiais->Outros",
+        "id" : "E0100"
+    },
+    {
+        "cat" : "Educacao->Obras->Construcao->Escolas",
+        "id" : "E0211"
+    },
+    {
+        "cat" : "Educacao->Obras->Construcao->Quadras esportivas",
+        "id" : "E0212"
+    },
+    {
+        "cat" : "Educacao->Obras->Construcao->Areas de lazer",
+        "id" : "E0213"
+    },
+    {
+        "cat" : "Educacao->Obras->Construcao->Outros",
+        "id" : "E0210"
+    },
+    {
+        "cat" : "Educacao->Obras->Reforma->Escolas",
+        "id" : "E0221"
+    },
+    {
+        "cat" : "Educacao->Obras->Reforma->Quadras esportivas",
+        "id" : "E0222"
+    },
+    {
+        "cat" : "Educacao->Obras->Reforma->Areas de lazer",
+        "id" : "E0223"
+    },
+    {
+        "cat" : "Educacao->Obras->Reforma->Outros",
+        "id" : "E0220"
+    },
+    {
+        "cat" : "Educacao->Obras->Modernizacao->Escolas",
+        "id" : "E0231"
+    },
+    {
+        "cat" : "Educacao->Obras->Modernizacao->Quadras esportivas",
+        "id" : "E0232"
+    },
+    {
+        "cat" : "Educacao->Obras->Modernizacao->Areas de lazer",
+        "id" : "E0233"
+    },
+    {
+        "cat" : "Educacao->Obras->Modernizacao->Outros",
+        "id" : "E0230"
+    },
+    {
+        "cat" : "Educacao->Ensino->Escola/Universidade->Presencial",
+        "id" : "E0311"
+    },
+    {
+        "cat" : "Educacao->Ensino->Escola/Universidade->A distancia",
+        "id" : "E0312"
+    },
+    {
+        "cat" : "Educacao->Ensino->Alfabetizacao",
+        "id" : "E0320"
+    },
+    {
+        "cat" : "Educacao->Ensino->Governo",
+        "id" : "E0330"
+    },
+    {
+        "cat" : "Educacao->Ensino->Populacao",
+        "id" : "E0340"
+    },
+    {
+        "cat" : "Educacao->Ensino->Capacitacao de professores",
+        "id" : "E0350"
+    },
+    {
+        "cat" : "Educacao->Ensino->Outros",
+        "id" : "E0300"
+    },
+    {
+        "cat" : "Educacao->Pesquisa->Projetos orgaos governamentais",
+        "id" : "E0410"
+    },
+    {
+        "cat" : "Educacao->Pesquisa->Graduacao",
+        "id" : "E0420"
+    },
+    {
+        "cat" : "Educacao->Pesquisa->Pos-graduacao",
+        "id" : "E0430"
+    },
+    {
+        "cat" : "Educacao->Pesquisa->Outros",
+        "id" : "E0400"
+    },
+    {
+        "cat" : "Educacao->Extensao",
+        "id" : "E0500"
+    },
+    {
+        "cat" : "Educacao->Outros",
+        "id" : "E0000"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Construcao->Sistemas de abastecimento",
+        "id" : "I0111"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Construcao->Estradas",
+        "id" : "I0112"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Construcao->Pontes",
+        "id" : "I0113"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Construcao->Outros",
+        "id" : "I0110"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Reforma->Sistemas de abastecimento",
+        "id" : "I0121"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Reforma->Estradas",
+        "id" : "I0122"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Reforma->Pontes",
+        "id" : "I0123"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Reforma->Outros",
+        "id" : "I0120"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Modernizacao->Sistemas de abastecimento",
+        "id" : "I0131"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Modernizacao->Estradas",
+        "id" : "I0132"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Modernizacao->Pontes",
+        "id" : "I0133"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Obras->Modernizacao->Outros",
+        "id" : "I0130"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Pavimentacao->Ruas ou estradas",
+        "id" : "I0210"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Saneamento basico->Drenagem de aguas pluviais",
+        "id" : "I0310"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Saneamento basico->Coleta de residuos",
+        "id" : "I0320"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Saneamento basico->Limpeza urbana",
+        "id" : "I0330"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Saneamento basico->Outros",
+        "id" : "I0300"
+    },
+    {
+        "cat" : "Infraestrutura urbana->Outros",
+        "id" : "I0000"
+    }
+]
