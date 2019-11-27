@@ -74,6 +74,131 @@
             [
                 "810829",
                 "Projeto de aquisição de insumos para distribuição aos pequenos agricultores do município de Corrente - PI"
+            ],
+            [
+                "750244",
+                "Projeto de aquisição de calcário para utilização na correção de solo no município de João Pinheiro-MG."
+            ],
+            [
+                "787221",
+                "PROJETO DE AQUISIÇÃO DE INSUMOS PARA CORREÇÃO DE SOLO."
+            ],
+            [
+                "744539",
+                "Projeto de aquisição de fertilizantes."
+            ],
+            [
+                "773243",
+                "Aquisição de calcário para distribuição aos produtores rurais com finalidade de correção de solo."
+            ],
+            [
+                "751338",
+                "Projeto de Aquisição de insumos agricolas para apoio ao pequeno e medio produtor"
+            ],
+            [
+                "760314",
+                "PROJETO DE AQUISIÇÃO E DISTRIBUIÇÃO (FRETE) DE INSUMOS PARA CORREÇÃO DE SOLOS."
+            ]
+        ]
+    },
+    {
+        "cat" : "A0100",
+        "dados" : [
+            [
+                [
+                    "982444",
+                    "Pavimentação Poliedrica em estrada rural"
+                ],
+                [
+                    "982884",
+                    "Construção de Abatedouro Público"
+                ],
+                [
+                    "996242",
+                    "Construção de Armazém visando o armazenamento de produtos agropecuários para apoio à comercialização."
+                ],
+                [
+                    "725687",
+                    "MODERNIZAÇÃO DO CENTRO DE COMERCIALIZAÇÃO DA AGRICULTURA FAMILIAR DO MUNICÍPIO DE TENENTE LAURENTINO CRUZ/RN"
+                ],
+                [
+                    "708960",
+                    "RECUPERAÇÃO DE ESTRADAS VICINAIS QUE LIGA O SÍTIO FORMOSO DOS ROBERTO À SEDE DO MUNICÍPIO DE VENHA VER/RN"
+                ],
+                [
+                    "719397",
+                    "Recuperação de trechos de estradas vicinais na zona rural do município de  Equador-RN."
+                ],
+                [
+                    "715792",
+                    "Reforma do mercado público municipal."
+                ],
+                [
+                    "718790",
+                    "Construção de passagens molhadas no Municipio de Cruzeta/RN."
+                ],
+                [
+                    "731913",
+                    "Construção do Centro de Comercialização do Pequeno Produtor Rural."
+                ],
+                [
+                    "754048",
+                    "Modernização do Galpão da Feira Livre na sede do município."
+                ],
+                [
+                    "733387",
+                    "Construção do Centro de Comercialização"
+                ]
+            ]
+        ]
+    },
+    {
+        "cat" : "A0200",
+        "dados" : [
+            [
+                "1003295",
+                "Incentivo ao desenvolvimento rural sustentável no município de Papagaios, por meio da melhoria da infraestrutura de produção conjugada com a capacitação dos agentes produtivos locais."
+            ],
+            [
+                "1041372",
+                "Recuperação e limpeza de aguadas em comunidades rurais nos municipos de Belém do São Francisco, Buíque, Carnaubeira da penha, Floresta, Ibimirim, Itacuruba, Jatobá, Petrolandia, Santa Maria da Boa Vista, São José do Belmonte, Serra Talhada, Tacaratu e Trindade - PE."
+            ],
+            [
+                "747834",
+                "o projeto visa contribuir para a formação educacional e política de agentes locais jovens que promovam o desenvolvimento socioambiental do Vale do Ribeira, por meio de: 1. Capacitação de agentes locais da Agricultura familiar e de populações tradicionais para atuarem no fortalecimento das práticas tradicionais aliadas a técnicas sustentáveis de manejo dos recursos em seus territórios; 2. Construção de forma participativa, campanhas educativas, de abrangência regional focada em temas prioritários para as comunidades, identificados pelos agentes locais capacitados e que promova o desenvolvimento rural sustentável; 3. Instrumentalização e fortalecimento dos agentes capacitados para elaborarem e implementarem projetos de educação ambiental baseados nas demandas locais para o desenvolvimento rural sustentável. 4. Capacitação dos executores do projeto e realização de intercâmbio dos agentes em dois encontros em Brasília."
+            ],
+            [
+                "747069",
+                "Fortalecer a Agricultura familiar na região do Vale do Rio Cuiabá e na região do médio norte de Mato Grosso por meio da formação de Agentes Populares de Educação Ambiental com foco especial nos jovens e nas mulheres do campo."
+            ],
+            [
+                "740459",
+                "Melhorar a renda, a saúde e a segurança alimentar em comunidades quilombolas por meio da formação de 210 Agentes Populares de Educação Ambiental na agricultura familiar, apoiando a  implementação de 7 projetos comunitários de educação ambiental com prioridade para a formação de mulheres e jovens de comunidades quilombolas."
+            ],
+            [
+                "788317",
+                "Disponibilizar tecnologias com vistas ao desenvolvimento sustentável da Agricultura Familiar de Barra do Turvo, através da melhoria de infraestrutura da Secretaria Municipal da Agricultura e Desenvolvimento Rural Sustentável, ampliando o acesso aos conhecimentos científicos ao público beneficiário, visando melhorias ao sistema produtivo tradicional."
+            ],
+            [
+                "912075",
+                "Promover o fortalecimento socioprodutivo e a cooperação na aquicultura e geração de renda, inclusão produtiva e implementação qualificada das políticas públicas de desenvolvimento rural sustentável e solidário do Território da Cantuquiriguaçu no Estado do Paraná."
+            ],
+            [
+                "953191",
+                "Fomento ao Setor Agropecuário."
+            ]
+        ]
+    },
+    {
+        "cat" : "A0300",
+        "dados" : [
+            [
+                "721222",
+                "Locação do EXPOMINAS para a Realização do evento “Semana Internacional do Café”, em Belo Horizonte, no período de 09 a 13/09/2013."
+            ],
+            [
+                "",
+                ""
             ]
         ]
     }
