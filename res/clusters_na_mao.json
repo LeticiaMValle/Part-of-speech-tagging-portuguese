@@ -242,8 +242,130 @@
         "cat" : "S0111",
         "dados" : [
             [
-                "",
-                ""
+                "663973",
+                "Construção da Cadeia Pública Feminina do Complexo Penitenciário da Gameleira em Campo Grande-MS, 407 vagas."
+            ],
+            [
+                "663824",
+                "Construção da Cadeia Pública Masculina no Município de São Sebastião do Passé/BA, com 388 vagas."
+            ],
+            [
+                "795223",
+                "Construção da Cadeia Pública Masculina de Ubá, 388 vagas."
+            ],
+            [
+                "758995",
+                "Construção da Cadeia Pública Masculina do Complexo Penitenciário da Gameleira em Campo Grande-MS, com capacidade para 603 vagas."
+            ],
+            [
+                "795382",
+                "Construção da Cadeia Pública Feminina em Ribeirão das Neves, 407 vagas."
+            ],
+            [
+                "663966",
+                "Construção de Cadeia Pública Masculina do Complexo Penitenciário da Gameleira em Campo Grande-MS, com capacidade para 388 vagas."
+            ]
+        ]
+    },
+    {
+        "cat" : "S0112",
+        "dados" : [
+            [
+                "856563",
+                "Construção da Delegacia Especializada em Crimes contra a Mulher – DCCM no município de Oiapoque/AP"
+            ],
+            [
+                "864686",
+                "Construção da sede da 50ª CIA PM da Polícia Militar do Estado de Minas Gerais, localizada a Avenida Guarujá, bairro São Vicente, Bom Despacho-MG."
+            ],
+            [
+                "1203124",
+                "Construção da Delegacia Especializada em Investigação de Atos Infracionais – DEIAI do Município de Santana – AP."
+            ],
+            [
+                "1203336",
+                "Construção da sede da Polícia Técnico Científica do Amapá - POLITEC, no município de Santana/AP."
+            ],
+            [
+                "1205875",
+                "Construção do Píer Integrado da Segurança Pública do Amapá no Município de Macapá/AP."
+            ],
+            [
+                "1202207",
+                "Construção do Quartel do 1º Batalhão da Polícia Militar do Amapá – 1º BPM, no município de Macapá/AP"
+            ],
+            [
+                "1205837",
+                "Construção do Quartel Zona Oeste do Corpo de Bombeiros Militar do Estado do Amapá no Município de Macapá/AP."
+            ],
+            [
+                "1203593",
+                "Construção da Unidade de Policiamento Comunitário do 2º Batalhão da Polícia Militar – 2º BPM no município de Macapá/AP"
+            ],
+            [
+                "1208457",
+                "Estruturar as Unidades Operacionais da Secretaria de Estado da Justiça e Segurança Pública do Estado do Amapá – SEJUSP, bem como a Polícia Civil, Corpo de Bombeiros Militar e Polícia Militar, por meio da aquisição de veículos, material de informática e equipamentos de proteção individual."
+            ],
+            [
+                "1207151",
+                "Estruturar as Unidades da Polícia Técnico Cientifica do Estado do Amapá na região metropolitana, por meio da aquisição de veículos, equipamentos de informática, equipamento para perícia e equipamento de guarda"
+            ],
+            [
+                "1202662",
+                "Construção do Centro Integrado em Operações de Segurança Pública - CIOSP da Zona Oeste do município de Macapá/AP."
+            ],
+            [
+                "1203186",
+                "Construção do Quartel 14º Batalhão da Polícia Militar do Amapá – 14º BPM, no município de Macapá/AP"
+            ]
+        ]
+    },
+    {
+        "cat" : "S0122",
+        "dados" : [
+            [
+                "768272",
+                "REESTRUTURAÇÃO DAS DELEGACIAS ESPECIALIZADAS DE ATENDIMENTO À MULHER DA POLÍCIA CIVIL DO ESTADO DO TOCANTINS"
+            ],
+            [
+                "769483",
+                "Fortalecimento das Delegacias de Polícia Especializada para Mulher (DEAMs), no Estado do Rio Grande do Sul, objetivando prevenir e reduzir a criminalidade de gênero no Estado."
+            ],
+            [
+                "770125",
+                "Reaparelhamento e fortalecimento das Delegacias Especializadas de Atendimento a Mulher da Polícia Civil de Rondônia, visando o apoio ao planejamento e execução de ações e operações de enfrentamento à violência contra as mulheres no campo e na floresta, bem como a garantia da aplicabilidade da Lei Maria da Penha."
+            ],
+            [
+                "769108",
+                "Fortalecimento da Delegacia Especializada de Atendimento à Mulher - DEAM no Município de Cruzeiro do Sul, através da aquisição de equipamentos, mobiliários e veículos, visando ampliar o acesso aos serviços especializados de atendimento a Mulher m situação de violência."
+            ],
+            [
+                "747511",
+                "Estruturar as unidades da Polícia Civil das dezenove cidades do entorno que compõem a RIDE e de Unidades Especializadas que atuam nesses locais."
+            ],
+            [
+                "746406",
+                "Fortalecimento de Delegacia Especializada no Atendimento a Crianças e Adolescentes vítimas"
+            ],
+            [
+                "745710",
+                "Reestruturação das Delegacias Especializadas em Atendimento a Crianças e Adolescentes Vítimas de Violência localizadas nos municípios de João Pessoa e Campina Grande e Delegacia Especializada no Combate a Crimes Homofóbicos localizada na Capital do Estado."
+            ],
+            [
+                "746301",
+                "Fortalecimento das Delegacias Especializadas de Atendimento às Mulheres das cidades de Maceió e Arapiraca, conforme ações pactuadas no âmbito do Programa Brasil Mais Seguro."
+            ],
+            [
+                "745704",
+                "Reestruturação das Delegacias Especializadas de Atendimento às Mulheres – DEAMs localizadas nos municípios de João Pessoa, Campina Grande, Cabedelo, Santa Rita, Bayeux e Patos."
+            ],
+            [
+                "763046",
+                "Estruturar as unidades das Delegacia Especializada no Atendimento a Mulher – DEAM das regionais que compõem a RIDE."
+            ],
+            [
+                "750419",
+                "Fortalecer a Coordenação Estadual do Programa Educacional de Resistência às Drogas do Estado de Goiás, com o objetivo de prevenir o uso e o abuso de substâncias psicoativas, em especial o crack, por meio do fortalecimento de fatores de proteção a crianças e a adolescentes no ambiente escolar dos Municípios que compõem a RIDE- Região Integrada de Desenvolvimento do Distrito Federal e Entorno."
             ]
         ]
     }
